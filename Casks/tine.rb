@@ -13,6 +13,5 @@ cask "tine" do
     Finish setup:
       echo 'source ~/.local/share/tine/tine.zsh' >> ~/.zshrc
     Then grant Accessibility: System Settings → Privacy & Security → Accessibility.
-    Tine is signed but not notarized — on first launch, right-click the app → Open.
   EOS
 end
