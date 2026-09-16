@@ -13,3 +13,15 @@ brew install --cask gustaferiksson/tap/amped
 
 The cask is updated automatically by the release workflow in the Amped repo on
 every tagged release.
+
+## MonoText
+
+TextEdit without the rich text — a document-based plain-text editor with a
+multi-cursor editor. ([source](https://github.com/gustaferiksson/monotext))
+
+```sh
+brew install --cask gustaferiksson/tap/monotext
+```
+
+The cask is updated automatically by the release workflow in the MonoText repo
+on every tagged release.
