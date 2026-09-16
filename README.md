@@ -25,3 +25,15 @@ brew install --cask gustaferiksson/tap/monotext
 
 The cask is updated automatically by the release workflow in the MonoText repo
 on every tagged release.
+
+## Caliper
+
+Measure real-world distances on images and PDFs — Preview, but with a ruler.
+([source](https://github.com/gustaferiksson/caliper))
+
+```sh
+brew install --cask gustaferiksson/tap/caliper
+```
+
+The cask is updated automatically by the release workflow in the Caliper repo
+on every tagged release.
