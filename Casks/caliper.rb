@@ -10,7 +10,7 @@ cask "caliper" do
   desc "Measure real-world distances on images and PDFs"
   homepage "https://github.com/gustaferiksson/caliper"
 
-  depends_on macos: ">= :tahoe"
+  depends_on macos: :tahoe
 
   app "Caliper.app"
 

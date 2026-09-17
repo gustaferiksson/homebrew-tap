@@ -10,7 +10,7 @@ cask "monotext" do
   desc "Document-based macOS plain-text editor with a multi-cursor editor"
   homepage "https://github.com/gustaferiksson/monotext"
 
-  depends_on macos: ">= :tahoe"
+  depends_on macos: :tahoe
 
   app "MonoText.app"
 

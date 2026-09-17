@@ -10,7 +10,7 @@ cask "amped" do
   desc "Menu bar app that keeps your Mac awake, even with the lid closed"
   homepage "https://github.com/gustaferiksson/amped"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Amped.app"
 
