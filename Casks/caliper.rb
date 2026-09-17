@@ -2,8 +2,8 @@ cask "caliper" do
   # version + sha256 are bumped automatically by the release workflow in
   # github.com/gustaferiksson/caliper on each tagged release. The placeholders
   # below are replaced on the first `git tag v… && git push`.
-  version "0.0.0"
-  sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+  version "0.1.0"
+  sha256 "ec3963bf070063e5b1ef5d6f2629594cf0d28dd2f2c4dddb934802e4247b8118"
 
   url "https://github.com/gustaferiksson/caliper/releases/download/v#{version}/Caliper-#{version}.zip"
   name "Caliper"
