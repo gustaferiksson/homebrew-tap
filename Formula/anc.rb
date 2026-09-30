@@ -1,8 +1,8 @@
 class Anc < Formula
   desc "Switch AirPods noise control from the terminal"
   homepage "https://github.com/gustaferiksson/anc"
-  url "https://github.com/gustaferiksson/anc/archive/refs/tags/v0.3.0.tar.gz"
-  sha256 "c5d83e9a8deffc289fc79b8e4428ebf18c725882879b874b5473bc1e4efabe46"
+  url "https://github.com/gustaferiksson/anc/archive/refs/tags/v0.4.0.tar.gz"
+  sha256 "09c61e07c4aa63c336cce240167d34669a29a5e0a4eae5dea4f2c712948a9a97"
   license "MIT"
 
   depends_on :macos
