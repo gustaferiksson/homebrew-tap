@@ -2,6 +2,18 @@
 
 A [Homebrew](https://brew.sh) tap for my macOS apps.
 
+## anc
+
+Switch AirPods noise control from the terminal.
+([source](https://github.com/gustaferiksson/anc))
+
+```sh
+brew install gustaferiksson/tap/anc
+```
+
+Built from source. Bump `url` and `sha256` in `Formula/anc.rb` by hand on each
+tagged release.
+
 ## Amped
 
 A tiny native menu bar app that keeps your Mac awake — even with the lid closed.
