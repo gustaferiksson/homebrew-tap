@@ -8,7 +8,8 @@ class Anc < Formula
   depends_on :macos
 
   def install
-    system "/usr/bin/swiftc", "-O", "anc.swift", "-o", bin/"anc"
+    system "/usr/bin/swiftc", "-O", "anc.swift", "-o", "anc"
+    bin.install "anc"
   end
 
   test do
