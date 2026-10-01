@@ -2,8 +2,8 @@ cask "monotext" do
   # version + sha256 are bumped automatically by the release workflow in
   # github.com/gustaferiksson/monotext on each tagged release. The placeholders
   # below are replaced on the first `git tag v… && git push`.
-  version "0.1.6"
-  sha256 "ca76dbf8be9514c567a692d91de3c66f9d60bc5ea358c961de718818a8644aee"
+  version "0.2.0"
+  sha256 "3fae23ab7694c01360d107183ce155efd1bd2ba5806111da32b9c0c99ff8e4f6"
 
   url "https://github.com/gustaferiksson/monotext/releases/download/v#{version}/MonoText-#{version}.zip"
   name "MonoText"
