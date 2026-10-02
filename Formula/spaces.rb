@@ -1,15 +1,15 @@
 class Spaces < Formula
   desc "Instant Ctrl+arrow switching between macOS Spaces"
   homepage "https://github.com/gustaferiksson/spaces"
-  url "https://github.com/gustaferiksson/spaces/archive/refs/tags/v0.2.1.tar.gz"
-  sha256 "9273c047c24e5907c54a2606fee47883c6c4720274fcfc409007ef1565f4b65f"
+  url "https://github.com/gustaferiksson/spaces/releases/download/v0.3.0/spaces-0.3.0.zip"
+  sha256 "0000000000000000000000000000000000000000000000000000000000000000"
   license "MIT"
 
+  depends_on arch: :arm64
   depends_on :macos
 
   def install
-    system "swift", "build", "--disable-sandbox", "-c", "release"
-    bin.install ".build/release/spaces"
+    bin.install "spaces"
   end
 
   post_install_steps do

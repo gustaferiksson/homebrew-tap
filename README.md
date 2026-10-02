@@ -12,8 +12,8 @@ brew install gustaferiksson/tap/spaces
 brew services start spaces
 ```
 
-Built from source. Bump `url` and `sha256` in `Formula/spaces.rb` by hand on
-each tagged release.
+A Developer ID signed, notarized binary. The release workflow in the spaces
+repo bumps the formula on every tagged release.
 
 ## anc
 
