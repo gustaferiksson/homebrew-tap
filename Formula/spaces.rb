@@ -12,8 +12,8 @@ class Spaces < Formula
     bin.install ".build/release/spaces"
   end
 
-  def post_install
-    quiet_system bin/"spaces", "install-icon"
+  post_install_steps do
+    run "spaces", args: ["install-icon"], base: :bin
   end
 
   service do
