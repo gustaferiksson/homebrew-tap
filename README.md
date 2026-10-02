@@ -2,6 +2,19 @@
 
 A [Homebrew](https://brew.sh) tap for my macOS apps.
 
+## spaces
+
+Instant Ctrl+←/→ switching between macOS Spaces, without the slide animation.
+([source](https://github.com/gustaferiksson/spaces))
+
+```sh
+brew install gustaferiksson/tap/spaces
+brew services start spaces
+```
+
+Built from source. Bump `url` and `sha256` in `Formula/spaces.rb` by hand on
+each tagged release.
+
 ## anc
 
 Switch AirPods noise control from the terminal.
