@@ -2,8 +2,8 @@ cask "amped" do
   # version + sha256 are bumped automatically by the release workflow in
   # github.com/gustaferiksson/amped on each tagged release. The placeholders
   # below are replaced on the first `git tag v… && git push`.
-  version "0.3.0"
-  sha256 "f7843e8e5f34f70c963dfb7ea0316e2d0f9b4b98d9e03dcf21f8d4ea3a9fe3fe"
+  version "0.3.1"
+  sha256 "0b25d0be408a433a45ea23840f520c6cd3ab98c9d8bf2faf35f0e9bdfce371d0"
 
   url "https://github.com/gustaferiksson/amped/releases/download/v#{version}/Amped-#{version}.zip"
   name "Amped"
