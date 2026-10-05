@@ -62,3 +62,15 @@ brew install --cask gustaferiksson/tap/caliper
 
 The cask is updated automatically by the release workflow in the Caliper repo
 on every tagged release.
+
+## Rinse
+
+A menu bar app that clears formatting from the text you copy, so it pastes as
+plain text. ([source](https://github.com/gustaferiksson/rinse))
+
+```sh
+brew install --cask gustaferiksson/tap/rinse
+```
+
+The cask is updated automatically by the release workflow in the Rinse repo on
+every tagged release. Rinse also updates itself.
