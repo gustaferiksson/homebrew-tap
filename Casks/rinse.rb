@@ -2,8 +2,8 @@ cask "rinse" do
   # version + sha256 are bumped automatically by the release workflow in
   # github.com/gustaferiksson/rinse on each tagged release. The placeholders
   # below are replaced on the first `git tag v… && git push`.
-  version "0.1.1"
-  sha256 "35f08d611d9e1280f68618fb26981e3bc275ccbf6dcdc0320b691f7ac93528b5"
+  version "0.1.2"
+  sha256 "52b674f77c75878f8891e7a160afd49f22a2d2d1dea09376c2e6150890e24ac2"
 
   url "https://github.com/gustaferiksson/rinse/releases/download/v#{version}/Rinse-#{version}.zip"
   name "Rinse"
