@@ -2,18 +2,17 @@
 
 A [Homebrew](https://brew.sh) tap for my macOS apps.
 
-## spaces
+## Spaces
 
-Instant Ctrl+←/→ switching between macOS Spaces, without the slide animation.
+A menu bar app for instant Space switching and window snapping.
 ([source](https://github.com/gustaferiksson/spaces))
 
 ```sh
-brew install gustaferiksson/tap/spaces
-brew services start spaces
+brew install --cask gustaferiksson/tap/spaces
 ```
 
-A Developer ID signed, notarized binary. The release workflow in the spaces
-repo bumps the formula on every tagged release.
+The cask is updated automatically by the release workflow in the spaces repo on
+every tagged release.
 
 ## anc
 
