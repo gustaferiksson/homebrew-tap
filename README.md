@@ -62,6 +62,19 @@ brew install --cask gustaferiksson/tap/caliper
 The cask is updated automatically by the release workflow in the Caliper repo
 on every tagged release.
 
+## Tidy
+
+A menu bar inbox for your GitHub notifications: pull requests, issues and
+security alerts, with read, done and quick-look previews.
+([source](https://github.com/gustaferiksson/tidy))
+
+```sh
+brew install --cask gustaferiksson/tap/tidy
+```
+
+The cask is updated automatically by the release workflow in the Tidy repo on
+every tagged release. Tidy also updates itself.
+
 ## Rinse
 
 A menu bar app that clears formatting from the text you copy, so it pastes as
