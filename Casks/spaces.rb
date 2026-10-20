@@ -2,8 +2,8 @@ cask "spaces" do
   # version + sha256 are bumped automatically by the release workflow in
   # github.com/gustaferiksson/spaces on each tagged release. The placeholders
   # below are replaced on the first `git tag v… && git push`.
-  version "0.5.0"
-  sha256 "fa8b8d595a7e97761811a23a6b4eca20cd419dd5c06dd537388c525cac878170"
+  version "0.5.1"
+  sha256 "a26e7829e654d29b1f66cb6664151b47db15836bf81bc5994046598de7065b8e"
 
   url "https://github.com/gustaferiksson/spaces/releases/download/v#{version}/Spaces-#{version}.zip"
   name "Spaces"
