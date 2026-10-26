@@ -2,8 +2,8 @@ cask "crew" do
   # version + sha256 are bumped automatically by the release workflow in
   # github.com/gustaferiksson/crew on each tagged release. The placeholders
   # below are replaced on the first `git tag v… && git push`.
-  version "0.1.39"
-  sha256 "769813938a37093d2e99c95ecbc0285d558f13b0af9a3bcbff38ef38915b5714"
+  version "0.1.40"
+  sha256 "91c02975ce941aecc888b8f09db626c4921d9ae41ae1f130fcc437b1567b1ffa"
 
   url "https://github.com/gustaferiksson/crew/releases/download/v#{version}/Crew-#{version}.zip"
   name "Crew"
