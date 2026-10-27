@@ -2,8 +2,8 @@ cask "tape" do
   # version + sha256 are bumped automatically by the release workflow in
   # github.com/gustaferiksson/tape on each tagged release. The placeholders
   # below are replaced on the first `git tag v… && git push`.
-  version "0.2.0"
-  sha256 "2844107a7b2f20a14955d40170ae995bba3e56f35db630b5f47bdb9d3eea1b24"
+  version "0.3.0"
+  sha256 "58f21bd6308736627056e3a0da3988d8eac5674b8740f8c301061b52c9c448b9"
 
   url "https://github.com/gustaferiksson/tape/releases/download/v#{version}/Tape-#{version}.zip"
   name "Tape"
