@@ -2,8 +2,8 @@ cask "tidy" do
   # version + sha256 are bumped automatically by the release workflow in
   # github.com/gustaferiksson/tidy on each tagged release. The placeholders
   # below are replaced on the first `git tag v… && git push`.
-  version "0.1.16"
-  sha256 "faa2bcd2693c609c57d003dfe4ee6d1b3c7d4153f74aa5eba8575d1050ac13f1"
+  version "0.1.17"
+  sha256 "03f90b18106076985b4c9a9a5753f32860fdac8e58507464b20aa1d6486eb446"
 
   url "https://github.com/gustaferiksson/tidy/releases/download/v#{version}/Tidy-#{version}.zip"
   name "Tidy"
