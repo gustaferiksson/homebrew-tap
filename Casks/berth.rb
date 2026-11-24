@@ -2,8 +2,8 @@ cask "berth" do
   # version + sha256 are bumped automatically by the release workflow in
   # github.com/gustaferiksson/berth on each tagged release. The placeholders
   # below are replaced on the first `git tag v… && git push`.
-  version "0.1.169"
-  sha256 "fe4adf8f37c76117827b4987190a2763fd82d605bd14151159edfcded24f799b"
+  version "0.1.170"
+  sha256 "a2f9e64341c96eb336e0932f8267e41969ebf162703e3ecb30f02d9f965fe137"
 
   url "https://github.com/gustaferiksson/berth/releases/download/v#{version}/Berth-#{version}.zip"
   name "Berth"
