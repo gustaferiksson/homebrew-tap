@@ -11,6 +11,7 @@ cask "berth" do
   homepage "https://github.com/gustaferiksson/berth"
 
   auto_updates true
+  depends_on arch: :arm64
   depends_on macos: :tahoe
 
   app "Berth.app"
